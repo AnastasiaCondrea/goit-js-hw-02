@@ -1,4 +1,4 @@
-function getShippingCost(country, priece) {
+function getShippingCost(country) {
       let price;
 
   switch (country) {
@@ -18,7 +18,7 @@ function getShippingCost(country, priece) {
       return 'Sorry, there is no delivery to your country';
   }
     
-return `Shipping to ${country} will cost ${priece} credits`
+return `Shipping to ${country} will cost ${price} credits`
 }
 
 
